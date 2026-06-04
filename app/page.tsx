@@ -89,14 +89,14 @@ export default function Home() {
             <div className="relative w-24 h-24 rounded-full overflow-hidden mb-6 ring-4 ring-muted">
               <Image
                 src="/phort.jpg"
-                alt="iamphort"
+                alt="PhortChrispin"
                 fill
                 className="object-cover"
                 priority
               />
             </div>
-            <h1 className="text-4xl sm:text-5xl font-bold text-foreground">iamphort</h1>
-            <p className="mt-2 text-lg text-muted-foreground">Creative Developer & Digital Innovator</p>
+            <h1 className="text-4xl sm:text-5xl font-bold text-foreground">PhortChrispin</h1>
+            <p className="mt-2 text-lg text-muted-foreground">Creative Developer & Digital Innovator from Tanzania</p>
             <p className="mt-4 max-w-xl text-muted-foreground leading-relaxed">
               Passionate about creating beautiful, functional digital experiences that make a difference. I blend creativity with technology to bring ideas to life.
             </p>
@@ -123,10 +123,10 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-foreground text-center mb-12">About Me</h2>
             <div className="max-w-2xl mx-auto bg-card border border-border rounded-2xl p-8">
               <p className="text-muted-foreground leading-relaxed">
-                Hello! I&apos;m iamphort, a passionate developer who loves turning complex problems into simple, beautiful solutions. With a keen eye for design and a strong technical background, I create digital experiences that are both functional and delightful.
+                Hello! I&apos;m PhortChrispin, a passionate developer from Tanzania who loves turning complex problems into simple, beautiful solutions. With a keen eye for design and a strong technical background, I create digital experiences that are both functional and delightful.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in continuous learning and staying at the forefront of technology trends.
+                I currently work with <a href="https://www.instagram.com/quicksoft_solutions/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Quicksoftsolution</a> and <a href="https://www.instagram.com/nexiiafrica/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Nexii</a>, where I collaborate on innovative projects that push the boundaries of technology. When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in continuous learning and staying at the forefront of technology trends.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {["Problem Solver", "Creative Thinker", "Team Player", "Continuous Learner"].map((trait) => (
@@ -183,13 +183,6 @@ export default function Home() {
                     </div>
                     <div className="mt-4 flex items-center gap-3">
                       <a
-                        href="#"
-                        className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-border text-sm text-foreground hover:bg-muted transition-colors"
-                      >
-                        <GithubIcon className="w-4 h-4" />
-                        Code
-                      </a>
-                      <a
                         href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -215,14 +208,14 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4 justify-center">
               <a
-                href="mailto:hello@iamphort.dev"
+                href="mailto:middlephort@gmail.com"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors"
               >
                 <Mail className="w-5 h-5" />
                 Send Email
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://tz.linkedin.com/in/phort-chrispin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border bg-background text-foreground font-medium hover:bg-muted transition-colors"
@@ -247,7 +240,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border py-8 px-6">
         <div className="mx-auto max-w-6xl text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} iamphort. Built with Next.js and Tailwind CSS.</p>
+          <p>&copy; {new Date().getFullYear()} PhortChrispin. Powered by <a href="https://www.instagram.com/nexiiafrica/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Nexii</a>.</p>
         </div>
       </footer>
     </div>
