@@ -72,7 +72,7 @@ export default function Home() {
       {/* Navigation */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <nav className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-          <span className="text-lg font-bold text-foreground">iamphort</span>
+          <span className="text-lg font-bold text-foreground">PhortChrispin</span>
           <div className="hidden sm:flex items-center gap-8">
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">About</a>
             <a href="#skills" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Skills</a>
