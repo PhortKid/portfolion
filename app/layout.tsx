@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PhortKid | Portfolio",
-  description: "Full-stack developer portfolio showcasing web development projects and skills",
+  title: "iamphort | Creative Developer & Digital Innovator",
+  description: "Passionate about creating beautiful, functional digital experiences. I blend creativity with technology to bring ideas to life.",
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0ea5e9",
+  themeColor: "#0f172a",
   width: "device-width",
   initialScale: 1,
 };
